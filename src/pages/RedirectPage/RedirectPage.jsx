@@ -1,7 +1,7 @@
 import {useNavigate} from "react-router-dom";
 import {useEffect} from "react";
 
-export const RediractPage = () => {
+export const RedirectPage = () => {
   const navigate = useNavigate()
 
   useEffect(() => {
