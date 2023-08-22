@@ -25,7 +25,7 @@ function PostList() {
       <h1>Список юзеров</h1>
       <div className={'posts-cont'}>
         {users.map(user => (
-          <Link to={`./users/${user.id}`} key={user.id}>
+          <Link to={`./${user.id}`} key={user.id}>
             {user.firstName} {user.lastName}
           </Link>
         ))}
